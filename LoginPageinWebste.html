@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page in Our Website</title>
+  </head>
+  <body background="ashan/ashan car.jpg">
+    <form enctype="multipart" action="LoginPage.jsp" method="post">
+      <h2 align="center">Job applicatin Form</h2>
+      <hr align="center" width="40%" color="black" />
+      <br />
+      <table align="center" width="100%" cellpadding="11%">
+        <tr>
+          <th>Full Name:</th>
+
+          <td>
+            <input
+              type="text"
+              name="Full Neme"
+              placeholder="Enter Your Name"
+              size="45"
+              maxlength="25"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Job Tittle:</th>
+          <td>
+            <input
+              type="text"
+              name="Job Tittle"
+              size="45"
+              placeholder=" Enter your job Title"
+              maxlength="25"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Current Company:</th>
+          <td>
+            <input
+              type="text"
+              name="Current Compnay"
+              size="45"
+              maxlength="25"
+              placeholder="Enter Your Current Compoany"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Mobile no:</th>
+          <td>
+            <select>
+              <option value="+91">+91</option>
+              <option value="+04">+04</option>
+              <option value="+01">+01</option>
+            </select>
+            <input
+              type="text"
+              name="Mobile no"
+              size="38"
+              placeholder="Enter Your Mobile no"
+              maxlength="25"
+            />
+          </td>
+        </tr>
+        <tr>
+        <th>Email:</th>
+          <td>
+            <label for="your mail"> </label>
+            <input
+              type="mail"
+              id="ypur mail"
+              size="45"
+              placeholder="Enter Your Email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Work Status:</th>
+          <td>
+            <input
+              type="radio"
+              name="Workstatus"
+              value="Full Time"
+              name="work status"
+            /><strong>Full Time</strong>
+            <input
+              type="radio"
+              name="Workstatus"
+              value="Part Time"
+              name="work status"
+            /><strong>Part Time</strong>
+            <input
+              type="radio"
+              name="Workstatus"
+              value="Pre Diemo"
+              name="work status"
+            /><strong>Pre Diemo</strong>
+            <input
+              type="radio"
+              name="Workstatus"
+              value="others"
+              name="work status"
+            /><strong>others</strong>
+          </td>
+        </tr>
+        <tr>
+          <th>salary:</th>
+          <td>
+            <input
+              type="text"
+              size="23"
+              maxlength="24"
+              placeholder="Enter Your salary"
+              name="salary"
+            />
+            <select>
+              <option value="rupees">Rupees</option>
+              <option value="Dollar">Dollar</option>
+              <option value="Euro">Euro</option>
+              <option value="Pound">Pound</option>
+            </select>
+            <select>
+              <option value="Yearly">Yearly</option>
+              <option value="Monthly">Monthly</option>
+              <option value="Weakly">weakly</option>
+              <option value="per day">Per Day</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th>Experience:</th>
+          <td>
+            <input
+              type="text"
+              size="45"
+              maxlength="45"
+              placeholder="Enter Your Experience"
+              name="Experience"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Current Location:</th>
+          <td>
+            <input
+              type="text"
+              size="45"
+              maxlength="100"
+              name="Current loation"
+              placeholder="Enter Your Current location"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Permanent Address:</th>
+          <td>
+            <textarea
+              rows="5"
+              cols="45"
+              placeholder="Enter ypur permanent address"
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <th>Upload resume:</th>
+          <td><input type="file" name="Upload Resume" multiple /></td>
+        </tr>
+        <tr>
+          <th><input type="submit" name="sumbit" value="sumbit" /></th>
+          <th><input type="reset" vlue="clear all" name="reset" /></th>
+        </tr>
+      </table>
+    </form>
+    <hr align="center" width="50%" color="black" />
+  </body>
+</html>

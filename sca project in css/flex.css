@@ -1,0 +1,25 @@
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid black;
+}
+.container {
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.box1 {
+  background-color: beige;
+}
+.box2 {
+  background-color: rgba(223, 245, 220, 0.6);
+}
+.box3 {
+  background-color: rgba(147, 161, 145, 0.585);
+}
+.box4 {
+  background-color: rgba(233, 220, 245, 0.6);
+}
